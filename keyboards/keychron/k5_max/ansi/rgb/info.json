@@ -32,6 +32,13 @@
             "splash": true,
             "typing_heatmap": true,
             "solid_reactive": true
+        },
+        "default": {
+            "animation": "solid_reactive",
+            "hue": 180,
+            "sat": 254, 
+            "speed": 25
+
         }
     }
 }

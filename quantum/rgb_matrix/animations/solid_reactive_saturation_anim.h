@@ -1,3 +1,5 @@
+// Start at white and saturate pressed key to base color, fading back to white
+
 #ifdef RGB_MATRIX_KEYREACTIVE_ENABLED
 #    ifdef ENABLE_RGB_MATRIX_SOLID_REACTIVE_SATURATION
 RGB_MATRIX_EFFECT(SOLID_REACTIVE_SATURATION)
@@ -8,7 +10,7 @@ static HSV SOLID_REACTIVE_SATURATION_math(HSV hsv, uint16_t offset) {
     hsv.h = scale16by8(g_rgb_timer, qadd8(rgb_matrix_config.speed, 8) >> 4);
 #            endif
     // hsv.h += qsub8(130, offset);
-    hsv.s += qsub8(130, offset);
+    hsv.s -= qsub8(offset, 130);
     return hsv;
 }
 

@@ -32,7 +32,8 @@
             "splash": true,
             "typing_heatmap": true,
             "solid_reactive": true,
-            "solid_reactive_saturation": true
+            "solid_reactive_saturation": true,
+            "reactive_key_cycle": true
         },
         "default": {
             "animation": "solid_reactive",

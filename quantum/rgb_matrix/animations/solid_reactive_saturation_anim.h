@@ -1,4 +1,5 @@
-// Start at white and saturate pressed key to base color, fading back to white
+// Start at desaturated base color and saturate pressed key, fading back to desaturated.
+// How to set baseline desaturation?
 
 #ifdef RGB_MATRIX_KEYREACTIVE_ENABLED
 #    ifdef ENABLE_RGB_MATRIX_SOLID_REACTIVE_SATURATION

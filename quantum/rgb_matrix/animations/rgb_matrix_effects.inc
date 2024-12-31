@@ -34,6 +34,7 @@
 #include "digital_rain_anim.h"
 #include "solid_reactive_simple_anim.h"
 #include "solid_reactive_anim.h"
+#include "solid_reactive_saturation_anim.h"
 #include "solid_reactive_wide.h"
 #include "solid_reactive_cross.h"
 #include "solid_reactive_nexus.h"
